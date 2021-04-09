@@ -6,3 +6,6 @@ I started working on my final project today. I decided I wanted to create a prod
 
 4/7/21:
 I watched the tutorial videos previously and decided on the 5th that I would design screens without planning what my screens would look like. So today I just decided to design my screens in a Notability document and make said screens if time allows.
+
+4/9/21:
+I came into this project having absolutely no idea what was to come. Every single day I work on this project a new issue arises. And today, it was the issue of not knowing how the screen builder works. More specifically, the "Navigator". The "Navigator" creates screens for you and a navigator window in the app to allow you to switch between screens easily however, I still have no clue how it works. I tried using google but it is still somewhat iffy. I also can't just drag and drop buttons, labels, tabs, etc where I want to put them, I have to adjust numbers and reorder each button, label, tab, etc, in order to move it to where I want. There is also no easy was to modify the size each block is. I haven't even started programming and I am encountering issues. I rather not solve them with brute force, but find an elegant solution to these issues, but with that way it is looking right now, brute force might be the only way. I guess this comes to show how difficult the process is. 
