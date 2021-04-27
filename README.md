@@ -13,3 +13,6 @@ Important Lesson: Order of code MATTERS.
 
 4/23/21: Day 5
 Goal(s): Further refining of program
+Result: I had difficulty implementing a gravity system that worked without the game looking weird with obsure movement issues so I decided to remove the gravity in my game completely. The game originally was going to have movement where player controlled sprites could move up, down, left, and right but both the movement and pvp I had originally planned seemed a little weird in a 480x360 grid so I decided to settle with just up/down movement.
+Notes: I wasted a lot of my time debugging certain issues during this process. These issues weren't very major, but enough to annoy me so that I spent the time to debug. This told me that I should definitely be debugging AS I program not AFTER I program. The major issue was trying to configure the bat sprite's flapping animation. I wanted it to flap only during certain moments making it a little more difficult as I can't just add a forever loop. 
+-> I also implemented a pretty nice/useful variable today called "curEvent", which keeps track on what phase the game is in. This should make situational codes easier to implement.
