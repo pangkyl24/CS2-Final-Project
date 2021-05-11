@@ -28,6 +28,28 @@ Result: This time I added what would be the most important part of my project, a
 Notes: A few small bugs popped up as I was programming. The first being the collision of projectiles. What happened was that when the projectiles collide, only one gets deleted, so what I did was make the projectiles stop of 0.05 seconds to ensure that they BOTH collide and delete themselves. The other was the buffer feature, in the end I had to create a delay/timer variable to accurately implement the buffer
 
 4/29/21: Day 11
-Goals(s): 
+Goal(s): Special Attacks pt.1
+Result: Today I decided each of the avatars would need something to make them stand out. This would be... Special Attacks!!! I spent the day brainstorming Ideas for special attacks and decided what they should be. Bat: Weaken Effect (Less Damage Per Hit), Bear: Massive Damage (Does lots of damage), Snake: Poison (Opponent can't use other attacks for certain period of time), Penguin: Slow Effect (movement speed slow). And with this, I would need to introduce a few special variables (p1_dmg, p1_speed, p1_status, p2_dmg, p2_speed, p2_status) along with a timer(cooldown) variable to prevent spam (p1_sp_timer, p2_sp_timer). So I spent the day designing sprites/costumes and adding new variables and replacing certain integers with these variables (ex. change p2_hp by -5 : -> change p2_hp by p1_dmg).
 
-4/29/21: Day 11
+5/1/21: Day 13
+Goal(s): Special Attacks pt.2
+Result: I programmed the entire special attack section today. Took a while but I was able to complete it. I basically used most of the code from the Basic Projectiles but modified it so that the special attacks are quite a bit different (inflict status effects). In order to do this(inflict status effects), I had to create a few methods in order to make this work(run_sp_attack, inf_slow, inf_poison, inf_weak). The only annoyance about this is that the methods are exclusive to each sprite so I had to copy and paste the methods in order for them to be "global", even so, a few small modifications were still needed. No major issues, however, I did learn that debugging AS I go along is a good idea. Debuggin large strings of code after finishing a section is very time consuming and inefficient after all.
+
+5/3/21: Day 15
+Goal(s): Ultimate Attack pt.1
+Result: Special attacks have been implemented, now it is time for ultimate attack. These are the game-changing attacks which will turn the tides of battle if they connect. In order for this to be successfully implemented, these attacks must be visually appealing and apply powerful, thoughtful effects. Bat: Weaken + Poison, Bear: Instant Win, Snake: Reset Charge for Opponent Ultimate, Penguin: Extremely long Slow. Some of these abilities may seem overpowered, but the attacks are avoidable and quite balanced if you think about it. I tried giving each sprite it's own niche (Snake does an especially nice job at preventing the opponent from attacking...etc.) along with making the effects bland in nicely with the game. Similar to day 11, I didn't actually do any programming, just some sprite/costume design andthe addition of new variables. This time, my idea for the ultimate is no longer cooldown based, but it is damaged based. Once you have successfully damaged the opponent by 4 times with your basic attack, your Ultimate will be charged and ready for use.
+
+5/5/21: Day 17
+Goal(s): Ultimate Attack pt.2
+Result: Much like day 13, I was able to finish the entire Ultimate attack section. This was actually relatively simple as I was able to use the methods created on Day 13 with a little bit of "Globalization" (Copy/Paste into each sprite's code + a few modifications). No issues, the entire process went smoothly without me having to grind my teeth in annoyance at every little issue. 
+
+5/7/21: Day 19:
+Goal(s): Health Bar + Ultimate Charge
+Result: Today I decided to actually implement the health bar into my game. I did this first by creating another project in scratch(https://scratch.mit.edu/projects/521962307/) to test the health bar. Once I was satisfied, I copied the code(manually so as to not have any issues) into my project for implementation. For the charging of the ultimate, instead of using the "draw" tool, I decided to use a sprite that would switch between costumes depending on the stage the ultimate is charged in. This wasn't much of an issue but the health bar was a HUGE pain. I had quite a difficult time understanding what each block did. I'm unfamiliar with the code afterall.
+
+5/9/21: Day COMPLETE!!!
+Goal(s): FINISH THE PROJECT!!!!
+Result: I Finished!!! There wasn't much to be added today, just a few finishing touches and an end-game screen. It was pretty easy compared to everything else. I'm just happy this project is finished. 
+
+
+
