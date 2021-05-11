@@ -19,7 +19,7 @@ Notes: I wasted a lot of my time debugging certain issues during this process. T
 
 4/25/21: Day 7 
 Goal(s): Research
-Result: I spent the day researching different ways to present a proper health bar in scratch. Obviously the simplest way would be using a variable to represent the health but that method doesn't look visually pleasing. So, I spend a few hours poking around other people's projects, forumns, and looking at code for inspiration. In the end, I decided to take inspiration from another user named, TheLogFather, and his project, "Health bar with pen"(https://scratch.mit.edu/projects/18482376/editor/). I decided I would use the same idea to draw my health bars. I wouldn't copy his code, but just the idea.
+Result: I spent the day researching different ways to present a proper health bar in scratch. Obviously the simplest way would be using a variable to represent the health but that method doesn't look visually pleasing. So, I spend a few hours poking around other people's projects, forumns, and looking at code for inspiration. In the end, I decided to take inspiration from another user named, TheLogFather, and his project, "Health bar with pen"(https://scratch.mit.edu/projects/18482376/). I decided I would use the same idea to draw my health bars. I wouldn't copy his code, but just the idea.
 Notes: I probably won't be programming the Health Bar feature until much later into the project when the main feature have already been finished, however this experience opened my eyes to the many ways one can solve the same problem.
 
 4/27/21: Day 9
